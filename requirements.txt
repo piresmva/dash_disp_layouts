@@ -1,7 +1,6 @@
-dash==2.6.0
-numpy==1.24.3
-matplotlib==3.4.3
-tqdm==4.62.3
-dash-core-components==2.0.0
-dash-html-components==2.0.0
-plotly==5.10.0
+webbrowser
+dash
+dash-core-components
+dash-html-components
+dash-renderer
+plotly
