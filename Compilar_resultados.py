@@ -40,7 +40,7 @@ simulacoes_d2 = sorted([key for key in list(result_dict.keys()) if 'D2' in key])
 
 # Inicialização do aplicativo Dash
 app = dash.Dash(__name__)
-
+server = app.server
 
 # Crie o gráfico inicial
 trace1 = obter_valor(result_dict, simulacoes_d1[0])
