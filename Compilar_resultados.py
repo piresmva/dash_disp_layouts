@@ -5,7 +5,7 @@ Created on Tue Oct 24 18:49:32 2023
 @author: Marcus
 """
 
-import webbrowser
+#import webbrowser
 from dash.dependencies import Input, Output
 import dash
 import dash_core_components as dcc
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     port = 8050  # A porta desejada
 
     # Abra o navegador automaticamente no endereço e porta configurados
-    webbrowser.open(f'http://{host}:{port}')
+    #webbrowser.open(f'http://{host}:{port}')
 
     # Inicie o servidor Dash
     app.run_server(host=host, port=port, debug=True)
